@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container</title>
+    <link rel="stylesheet" href="carosel_items.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <!--Logo-->
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="Logo" width="80" height="50" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!--Left side -->
+                    <ul class="navbar-nav  mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="index.html">HOTEL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="about.html">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="destination.html">DESTINATION</a>
+                        </li>
+
+                        <!--Rooms-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="In_room.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                ROOMS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="standardrooms.html">Standard Room</a></li>
+                                <li><a class="dropdown-item" href="deluxeroom.html">Deluxe Room</a></li>
+                                <li><a class="dropdown-item" href="luxuryroom.html">Luxury Room</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="executive.html">Executive Suite</a></li>
+                            </ul>
+                            <!--Dining-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="dining.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                DINING
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="Fine_dining.html">Fine Dining Restaurants</a></li>
+                                <li><a class="dropdown-item" href="Cafes_lounges.html">Cafes & Lounges</a></li>
+                                <li><a class="dropdown-item" href="bars.html">Bars</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="In_room.html">In-Room Dining</a></li>
+
+                            </ul>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="more.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                MORE
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="travel.html">Travel stories</a></li>
+                                <li><a class="dropdown-item" href="contact.html">Contact us</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="booking.html">Manage your booking</a></li>
+
+
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex ms-auto">
+                        <input class="form-control me-2" type="search"
+                            placeholder="Click here to search for Destinations or Hotels.">
+                        <button class="btn btn-outline-primary">BOOK A STAY</button>
+                    </form>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <!--Footer-->
+    <footer class="footer-dark pt-5">
+        <div class="container">
+            <div class="row gy-4">
+
+                <!--Hotel Info -->
+                <div class="col-md-3">
+                    <h5 class="mb-3">TAJ HOTEL</h5>
+                    <p class="list-unstyled">
+                        Timeless luxury and warm hospitality,
+                        crafted for unforgettable stays.
+                    </p>
+                    <h5 class="footer-logo md-1">IHCL</h5>
+                    <p class="text-light small">SUBSCRIBE FOR LATEST UPDATES</p>
+
+                    <form class="subscribe-form d-flex">
+                        <input type="email" class="form-control me-2" placeholder="Enter your email Address">
+                        <button class="btn btn-outline-light">SUBSCRIBE</button>
+                    </form>
+
+                    <div class="mt-4 ">
+                        <p class="mb-1"><strong>FOR BOOKINGS CONTACT</strong><br>1-800-111-825</p>
+                        <p class="mb-1"><strong>CUSTOMER SUPPORT</strong><br>contacttaj@tajhotels.com</p>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-3">
+                    <h5 class="mb-3">QUICK LINKS</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-light text-decoration-none">Home</a></li>
+                        <li><a href="about.html" class="text-light text-decoration-none">About Us</a></li>
+                        <li><a href="destination.html" class="text-light text-decoration-none">Destinations</a></li>
+                        <li><a href="In_room.html" class="text-light text-decoration-none">Rooms</a></li>
+                        <li><a href="dining.html" class="text-light text-decoration-none">Dining</a></li>
+                        <li><a href="more.html" class="text-light text-decoration-none">More</a></li>
+                    </ul>
+                </div>
+
+                <!--Services -->
+                <div class="col-md-3">
+                    <h5 class="mb-3">OUR SERVICES</h5>
+                    <ul class="list-unstyled">
+                        <li>Luxury Rooms</li>
+                        <li>Fine Dining</li>
+                        <li>Poolside View</li>
+                        <li>Spa & Wellness</li>
+                        <li>Banquet & Events</li>
+                    </ul>
+                </div>
+
+                <!--  Contact -->
+                <div class="col-md-3">
+                    <h5 class="mb-3">CONTACT US</h5>
+                    <p class="list-unstyled mb-1">📍 Deheradun, India</p>
+                    <p class="list-unstyled mb-1">📞 +91 90112 61820</p>
+                    <p class="list-unstyled">📧 info@tajhotel.com</p>
+
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Bottom Line -->
+            <div class="text-center border-top pt-3 mt-4">
+                <p class="small mb-0">
+                    © 2026 Taj Hotel. All Rights Reserved.
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

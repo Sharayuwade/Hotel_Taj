@@ -1,0 +1,207 @@
+/* ===== CAROUSEL IMAGE FIX ===== */
+
+
+
+/* Optional: better text readability */
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+}
+/*Hover effects on dropdown*/
+.navbar .dropdown:hover .dropdown-menu{
+  display: block;
+  margin-top:0;
+}
+
+/*Card Hover Effects*/
+.card:hover{
+  transform:translateY(-10px);
+  box-shadow:0 15px 30px rgba(0, 0, 0, 0.2);
+}
+.navbar .form-control{
+  width: 260px;
+}
+
+/* =========================
+   DARK FOOTER (TAJ STYLE)
+   ========================= */
+
+.footer-dark{
+  background-color:#111;
+  color:#fff;
+}
+
+.footer-dark p,
+.footer-dark li{
+  color:#ddd;
+  font-size:14px;
+}
+
+.footer-dark h4,
+.footer-dark h5,
+.footer-dark h6{
+  color:#fff;
+  letter-spacing:1px;
+}
+
+/* Subscribe input */
+.subscribe-form input{
+  background:transparent;
+  border:none;
+  border-bottom:1px solid #888;
+  border-radius:0;
+  color:#fff;
+}
+
+.subscribe-form input::placeholder{
+  color:#aaa;
+}
+
+.subscribe-form input:focus{
+  outline:none;
+  box-shadow:none;
+  border-color:#fff;
+}
+
+/* Subscribe button */
+.subscribe-form button{
+  border:1px solid #fff;
+  color:#fff;
+}
+
+.subscribe-form button:hover{
+  background:#fff;
+  color:#000;
+}
+
+/* Footer links hover */
+.footer-links li{
+  cursor:pointer;
+  margin-bottom:6px;
+}
+
+.footer-links li:hover{
+  color:#fff;
+}
+
+/* Social icons */
+.social-icons a{
+  color:#fff;
+  margin-right:15px;
+  font-size:16px;
+  transition:transform 0.3s ease;
+}
+
+.social-icons a:hover{
+  transform:scale(1.2);
+}
+
+/* Footer divider */
+.footer-line{
+  border-top:1px solid #333;
+  margin:30px 0;
+}
+
+/* =========================
+   FOOTER FONT CONSISTENCY
+   ========================= */
+
+/* All footer section headings */
+footer.footer-dark h5{
+  font-size:18px;
+  font-weight:600;
+  letter-spacing:0.5px;
+  margin-bottom:12px;
+}
+
+/* All footer content text */
+footer.footer-dark p,
+footer.footer-dark li,
+footer.footer-dark a{
+  font-size:14px;
+  line-height:1.6;
+}
+
+/* IHCL heading */
+footer.footer-dark .footer-logo{
+  font-size:18px;
+  font-weight:600;
+  margin-top:20px;
+}
+
+/* Booking & support labels */
+footer.footer-dark strong{
+  font-size:14px;
+  font-weight:600;
+}
+
+/* Subscribe text */
+footer.footer-dark .text-light.small{
+  font-size:14px;
+}
+
+/* Bottom copyright text */
+footer.footer-dark .small{
+  font-size:13px;
+}
+/* Default (desktop) - caption over image */
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.45);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* MOBILE VIEW FIX */
+@media (max-width: 768px) {
+  .carousel-caption {
+    position: static;        /* remove overlay */
+    background: 0;;        /* no dark box */
+    color: white;             /* readable text */
+    text-align: center;
+    padding: 15px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 22px;
+    margin-top: 15px;
+  }
+
+  .carousel-caption p {
+    font-size: 14px;
+    color: #555;
+  }
+
+  .carousel-item img {
+    height: 260px;           /* mobile-friendly height */
+  }
+}
+
+/* Navbar hover - simple blue */
+.navbar .nav-link {
+  color: #333;
+}
+
+.navbar .nav-link:hover {
+  color: #0d6efd;   /* Bootstrap blue (same as BOOK A STAY) */
+}
+
+
+.dropdown-menu .dropdown-item {
+  color: #333;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: #0d6efd;
+  background-color: #f8f9fa;
+}
+.navbar .nav-link {
+  
+  transition: color 0.2s ;
+}
+
+
+
+
+
+
